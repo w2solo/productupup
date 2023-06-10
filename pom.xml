@@ -16,6 +16,7 @@
         <module>yudao-module-member</module>
         <module>yudao-module-system</module>
         <module>yudao-module-infra</module>
+        <module>yudao-module-puu</module>
     </modules>
 
     <name>${project.artifactId}</name>
