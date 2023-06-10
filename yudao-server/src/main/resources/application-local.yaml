@@ -10,12 +10,12 @@ spring:
       primary: master
       datasource:
         master:
-          url: jdbc:mysql://192.168.0.93:3306/s_puu?allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
+          url: jdbc:mysql://localhost:3306/s_puu?allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
           driverClassName: com.mysql.cj.jdbc.Driver
           username: root
           password: puu123456
         slave: # 模拟从库，可根据自己需要修改
-          url: jdbc:mysql://192.168.0.93:3306/s_puu?allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
+          url: jdbc:mysql://localhost:3306/s_puu?allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
           driverClassName: com.mysql.cj.jdbc.Driver
           username: root
           password: puu123456
